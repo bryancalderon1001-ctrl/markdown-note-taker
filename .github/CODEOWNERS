@@ -1,0 +1,18 @@
+# CODEOWNERS - Automatically request reviews based on file paths
+# See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owners for everything in the repo
+*       @bryancalderon1001-ctrl
+
+# JavaScript files owned by the dev team
+*.js    @bryancalderon1001-ctrl
+
+# Documentation owned by the docs team
+*.md    @bryancalderon1001-ctrl
+
+# CI/CD configuration
+.github/workflows/  @bryancalderon1001-ctrl
+
+# Security-sensitive files require security team review
+SECURITY.md         @bryancalderon1001-ctrl
+.github/CODEOWNERS  @bryancalderon1001-ctrl
